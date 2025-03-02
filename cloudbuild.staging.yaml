@@ -34,4 +34,6 @@ substitutions:
     _SERVICE_NAME     : my-docker-app-staging
     _DOCKER_REGISTRY  : astahov-docker-repo
     _DOCKER_IMAGENAME : myapp-staging
-
+    
+options:
+  logging: CLOUD_LOGGING_ONLY
